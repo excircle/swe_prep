@@ -2,6 +2,8 @@
 
 This repository contains notes, diagrams, and code examples for many common software engineering concepts. This repository was created to help me in my journey to become a professional software engineer.
 
+Since my goal is to begin writing Golang professionally, the notes and code in this repository with be written in Go and translated in to other languages as needed.
+
 The syllabus for my learning plan is as follows.
 
 ### Week 1:
