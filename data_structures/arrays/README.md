@@ -46,4 +46,24 @@ The Golang array is simple. It is indexed (starting at 0) and provides the abili
 
 # Golang 'Slices' As Dynamic, Multi-Dimensional Arrays
 
-Golang arrays are not dynamic, nor can they 
+While Golang arrays are not dynamic, they are multi-dimensional due to the fact that they can hold multiple subarrays.
+
+An example of this is shown below:
+
+```Go
+func main() {
+	a := [3][2]int{
+		[2]int{1,2},
+		[2]int{3,4},
+		[2]int{5,6}}
+	fmt.Println(a)
+}
+// Returns: [[1 2] [3 4] [5 6]]
+```
+
+<b>But how do we increase the capacity of this array without re-creating the data??</b>
+
+SLICES.
+
+### How are Slices different than arrays?
+
